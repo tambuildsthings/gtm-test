@@ -9,6 +9,21 @@ const { title } = Astro.props;
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- GTM SNIPPET -->
+    <script
+      type="text/partytown"
+      src="https://www.googletagmanager.com/gtag/js?id=YOUR-ID-HERE"></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "YOUR-ID-HERE");
+    </script>
+    <!-- END GTM SNIPPET -->
+
     <meta charset="UTF-8" />
     <meta name="description" content="Default description" />
     <meta name="viewport" content="width=device-width" />
