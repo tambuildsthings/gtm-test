@@ -18,5 +18,6 @@ I even tried implementing this rejected docs suggestion to try to set up url pro
 
 I've made this public repo with a super basic 2 page astro site here and hosted it on netlify here (https://regal-bavarois-615df8.netlify.app/).
 This is the simplest test I could think of and I still can't get Partytown and GTM to work together.
+The GTM code is in my Layout file here (https://github.com/tambuildsthings/gtm-test/blob/main/src/layouts/Layout.astro)
 
 Any suggestions on how to get Partytown / GTM / Astro all working together would be very welcome. Given Partytown is in the Astro docs I assume it does actually work somehow, but I can't figure out what I've done wrong.
