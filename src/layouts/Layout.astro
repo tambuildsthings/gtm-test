@@ -12,8 +12,8 @@ const { title } = Astro.props;
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
     </script>
-    <!-- Google Tag Manager -->
-    <script is:inline type="text/partytown">
+    <!-- Google Tag Manager Snippet from GTM Install Docs -->
+    <!-- <script is:inline type="text/partytown">
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
@@ -24,11 +24,11 @@ const { title } = Astro.props;
         j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
         f.parentNode.insertBefore(j, f);
       })(window, document, "script", "dataLayer", "GTM-N3XH9Z37");
-    </script>
-    <!-- End Google Tag Manager -->
+    </script> -->
+    <!-- End Google Tag Manager Snippet from GTM Install Docs -->
 
-    <!-- SUGGESTED GTM SNIPPET -->
-    <!-- <script
+    <!-- SUGGESTED GTM SNIPPET FROM PARTYTOWN DOCS -->
+    <script
       type="text/partytown"
       src="https://www.googletagmanager.com/gtag/js?id=GTM-N3XH9Z37"></script>
     <script type="text/partytown">
@@ -39,8 +39,8 @@ const { title } = Astro.props;
       gtag("js", new Date());
 
       gtag("config", "GTM-N3XH9Z37");
-    </script> -->
-    <!-- END SUGGESTED GTM SNIPPET -->
+    </script>
+    <!-- END SUGGESTED GTM SNIPPET FROM PARTYTOWN DOCS -->
 
     <meta charset="UTF-8" />
     <meta name="description" content="Default description" />
@@ -51,13 +51,13 @@ const { title } = Astro.props;
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript
+    <!-- <noscript
       ><iframe
         src="https://www.googletagmanager.com/ns.html?id=GTM-N3XH9Z37"
         height="0"
         width="0"
         style="display:none;visibility:hidden"></iframe></noscript
-    >
+    > -->
     <!-- End Google Tag Manager (noscript) -->
     <div class="max-w-5xl mx-auto p-10">
       <slot />
